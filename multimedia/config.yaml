@@ -1,0 +1,22 @@
+databases:
+    mediawiki:
+        host: "analytics-store.eqiad.wmnet"
+        port: 3306
+        creds_file: /a/.my.cnf.research
+        db: enwiki # just a default, queries specify which db they need
+
+defaults:
+    db: mediawiki
+
+graphs: # legacy section, old generate.py script crashes without this
+
+reportupdater-output: "/a/limn-public-data/metrics/multimedia"
+
+reportupdater-reports:
+    uploads:
+        frequency: days
+        granularity: days
+        timeboxed: true
+        starts: 2015-03-01
+        explode_by:
+            wiki_db: enwiki, commonswiki

@@ -34,3 +34,17 @@ reportupdater-reports:
         starts: 2004-01-01
         explode_by:
             wiki_db: commonswiki, dewiki, enwiki
+    upload-wizard-uploads:
+        frequency: months
+        granularity: months
+        timeboxed: true
+        starts: 2010-01-01
+        explode_by:
+            wiki_db: commonswiki
+    cross-wiki-uploads:
+        frequency: months
+        granularity: months
+        timeboxed: true
+        starts: 2015-09-01
+        explode_by:
+            wiki_db: commonswiki

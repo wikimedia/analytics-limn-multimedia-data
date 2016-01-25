@@ -1,7 +1,7 @@
  select date('{from_timestamp}') as date,
-        count(*) as {wiki_db}
+        count(*) as {wiki}
    from (select img_user
-           from {wiki_db}.image
+           from {wiki}.image
           group by img_user
          having min(img_timestamp) >= '{from_timestamp}'
             and min(img_timestamp) < '{to_timestamp}'

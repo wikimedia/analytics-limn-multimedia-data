@@ -19,6 +19,24 @@ reportupdater-reports:
         timeboxed: true
         starts: 2004-01-01
         by_wiki: true
+    image-uploads:
+        frequency: months
+        granularity: months
+        timeboxed: true
+        starts: 2004-01-01
+        by_wiki: true
+    audio-uploads:
+        frequency: months
+        granularity: months
+        timeboxed: true
+        starts: 2004-01-01
+        by_wiki: true
+    video-uploads:
+        frequency: months
+        granularity: months
+        timeboxed: true
+        starts: 2004-01-01
+        by_wiki: true
     deletions:
         frequency: months
         granularity: months

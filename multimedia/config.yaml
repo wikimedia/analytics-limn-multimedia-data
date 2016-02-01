@@ -54,6 +54,20 @@ reports:
         starts: 2015-09-01
         explode_by:
             wiki_db: commonswiki
+    illustrated-pages:
+        frequency: months
+        granularity: months
+        timeboxed: true
+        starts: 2015-01-01
+        explode_by:
+            wiki_db: enwiki
+    newly-illustrated-pages:
+        frequency: months
+        granularity: months
+        timeboxed: true
+        starts: 2015-01-01
+        explode_by:
+            wiki_db: enwiki
     upload-wizard-exceptions:
         granularity: days
         starts: 2017-01-01

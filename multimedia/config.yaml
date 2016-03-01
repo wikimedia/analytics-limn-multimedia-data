@@ -8,11 +8,7 @@ databases:
 defaults:
     db: mediawiki
 
-graphs: # must be here, or else generate.py will crash
-
-reportupdater-output: /a/limn-public-data/metrics/multimedia-health
-
-reportupdater-reports:
+reports:
     uploads:
         frequency: months
         granularity: months

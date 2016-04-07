@@ -10,57 +10,39 @@ defaults:
 
 reports:
     uploads:
-        frequency: months
         granularity: months
-        timeboxed: true
         starts: 2004-01-01
         by_wiki: true
     image-uploads:
-        frequency: months
         granularity: months
-        timeboxed: true
         starts: 2004-01-01
         by_wiki: true
     audio-uploads:
-        frequency: months
         granularity: months
-        timeboxed: true
         starts: 2004-01-01
         by_wiki: true
     video-uploads:
-        frequency: months
         granularity: months
-        timeboxed: true
         starts: 2004-01-01
         by_wiki: true
     deletions:
-        frequency: months
         granularity: months
-        timeboxed: true
         starts: 2004-01-01
         by_wiki: true
     uploaders:
-        frequency: months
         granularity: months
-        timeboxed: true
         starts: 2004-01-01
         by_wiki: true
     new-uploaders:
-        frequency: months
         granularity: months
-        timeboxed: true
         starts: 2004-01-01
         by_wiki: true
     upload-wizard-uploads:
-        frequency: months
         granularity: months
-        timeboxed: true
         starts: 2010-01-01
         by_wiki: true
     cross-wiki-uploads:
-        frequency: months
         granularity: months
-        timeboxed: true
         starts: 2015-09-01
         explode_by:
             wiki_db: commonswiki

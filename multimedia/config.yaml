@@ -12,35 +12,43 @@ reports:
     uploads:
         granularity: months
         starts: 2004-01-01
-        by_wiki: true
+        explode_by:
+            wiki_db: wiki_dbs.txt
     image-uploads:
         granularity: months
         starts: 2004-01-01
-        by_wiki: true
+        explode_by:
+            wiki_db: wiki_dbs.txt
     audio-uploads:
         granularity: months
         starts: 2004-01-01
-        by_wiki: true
+        explode_by:
+            wiki_db: wiki_dbs.txt
     video-uploads:
         granularity: months
         starts: 2004-01-01
-        by_wiki: true
+        explode_by:
+            wiki_db: wiki_dbs.txt
     deletions:
         granularity: months
         starts: 2004-01-01
-        by_wiki: true
+        explode_by:
+            wiki_db: wiki_dbs.txt
     uploaders:
         granularity: months
         starts: 2004-01-01
-        by_wiki: true
+        explode_by:
+            wiki_db: wiki_dbs.txt
     new-uploaders:
         granularity: months
         starts: 2004-01-01
-        by_wiki: true
+        explode_by:
+            wiki_db: wiki_dbs.txt
     upload-wizard-uploads:
         granularity: months
         starts: 2010-01-01
-        by_wiki: true
+        explode_by:
+            wiki_db: wiki_dbs.txt
     cross-wiki-uploads:
         granularity: months
         starts: 2015-09-01

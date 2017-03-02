@@ -54,3 +54,15 @@ reports:
         starts: 2015-09-01
         explode_by:
             wiki_db: commonswiki
+    upload-wizard-uploads:
+        granularity: days
+        starts: 2017-01-01
+        funnel: true
+    upload-wizard-errors:
+        granularity: days
+        starts: 2017-01-01
+        funnel: true
+    upload-wizard-api-errors:
+        granularity: days
+        starts: 2017-01-01
+        funnel: true
